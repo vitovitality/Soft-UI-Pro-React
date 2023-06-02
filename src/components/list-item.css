@@ -1,0 +1,29 @@
+.list-item-container {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 1rem;
+  max-width: 500px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.list-item-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.list-item-icon {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.list-item-text {
+  color: var(--dl-color-secondary-600);
+  align-self: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
